@@ -1,0 +1,52 @@
+fips_code,state,value
+1,Alabama,-0.029461726
+2,Alaska,-0.283382623
+4,Arizona,-0.067002995
+5,Arkansas,0.08438239
+6,California,-0.058996625
+8,Colorado,-0.02222649
+9,Connecticut,-0.080030141
+10,Delaware,0.089621219
+11,DC,-0.099112856
+12,Florida,-0.097856195
+13,Georgia,0.068761051
+15,Hawaii,-0.04335706
+16,Idaho,0.030509244
+17,Illinois,-0.009483578
+18,Indiana,0.004248962
+19,Iowa,-0.153251864
+20,Kansas,-0.149684259
+21,Kentucky,0.099831521
+22,Louisiana,0.13087577
+23,Maine,0.12306773
+24,Maryland,-0.10790259
+25,Massachusetts,0.081627061
+26,Michigan,0.051417154
+27,Minnesota,-0.07033231
+28,Mississippi,-0.056621503
+29,Missouri,-0.054177263
+30,Montana,-0.124681671
+31,Nebraska,-0.080648286
+32,Nevada,0.110253794
+33,New Hampshire,-0.114306268
+34,New Jersey,0.031229898
+35,New Mexico,-0.111372154
+36,New York,0.034510481
+37,North Carolina,-0.023600598
+38,North Dakota,-0.070721618
+39,Ohio,-0.025076764
+40,Oklahoma,0.046960163
+41,Oregon,0.069880854
+42,Pennsylvania,-0.000287757
+44,Rhode Island,-0.173814473
+45,South Carolina,-0.046120755
+46,South Dakota,0.150706084
+47,Tennessee,0.073640905
+48,Texas,0.006097514
+49,Utah,0.148044165
+50,Vermont,0.178026734
+51,Virginia,-0.115723052
+53,Washington,-0.007980784
+54,West Virginia,-0.014363677
+55,Wisconsin,0.059094427
+56,Wyoming,-0.259413493

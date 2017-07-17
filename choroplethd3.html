@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+	
+<head>
+		
+<meta charset="utf-8">
+		
+<title>Choropleth Map for CFPB Data</title>
+<style>
+
+body{
+  padding-left:40px;
+}
+
+p{
+line-height: 1.5; 
+text-indent: 50px;
+ font-family: "calibri";
+ text-align: justify;
+ padding-right:300px;
+}
+
+h1{
+font-family: "Calibri";
+font-size:24px;
+}
+
+h2{
+padding-top:50px;
+font-family: "Calibri";
+font-size:24px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 120px;                  
+  height: 25px;                 
+  padding: 2px;             
+  font-size: 14px;
+  font-family: "calibri";
+  color: #ffffff;     
+  background: #4f5451;
+  border: 1px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}  
+
+path {
+  stroke:white;
+  stroke-width: 1px;
+}
+</style>		
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+<h1>Goal of this visualization:</h1>
+<p>This data represents the year over year change in new credit card volume, per state. The goal of the visualization is to display, at a glance, which states fall into which percentage bucket range. Viewers should be able to immediately discern: Which states had the greatest increase? Which states had the greatest decrease? Into which category (i.e. bucket) do the majority of states fall? Furthermore, viewers should be able to interact with the map; rather than viewing static data on a list, they should be able to engage with the visualization. Finally, the visualization should be graphically appealing, presenting the familiar form of the USA with a clear color coding scheme and an easily understandable legend.</p>
+<h2>This is the original CFPB map of the data:</h2>
+<img src="cfpbmap.jpg" width="600" height="500">
+<p>This chart is intended as a color coded map of the US, but it doesn't actually seem like a map, as states are represented as identical boxes, positioned in order of the states. 
+Furthermore, there is almost no interactivity in the map. The data is all presented statically - it is similar to a data list, with list items placed in color coded boxes to represent a state's location.
+</p>
+
+<h2>This is an improved choropleth map of the data:</h2>	
+<script type="text/javascript" src="choropleth-d3-script.js"></script>
+<p >This choropleth map, drawning on the works of the legendary bl.ocks.org and Scott Murray, depicts the credit card data in an interactive, engaging visualization. The map is true to form of the US, and the color coded states and accompanying legend clearly display the bucket range of a particular state. On mouseover, a user can view the exact percentage change of a particular state.</p>
+</body>
+</html>
